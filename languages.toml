@@ -1,0 +1,10 @@
+[language-server.tinymist]
+command = "tinymist"
+config.exportPdf = "onSave"
+[[language]]
+name = "python"
+roots = ["pyproject.toml", "Poetry.lock", "setup.py", ".git"]
+language-servers = ["basedpyright"]
+auto-format = true
+
+
